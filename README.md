@@ -3,6 +3,9 @@
 
 ![Alt text](images/pose3D.gif?raw=true "Title")
 
+### This code is associated with the paper from Günel et al., "DeepFly3D, a deep learning-based approach for 3D limb and appendage tracking in tethered, adult *Drosophila*". eLife, 2019. http://dx.doi.org/10.7554/eLife.48571
+
+
 DeepFly3D is a PyTorch and PyQT5 implementation of 2D-3D tethered Drosophila pose estimation. It aims to provide an interface for pose estimation and to permit further correction of 2D pose estimates, which are automatically converted to 3D pose. 
 
 DeepFly3D **does not require a calibration pattern**, it enforces **geometric constraints using pictorial structures**, which corrects most of the erros, and the **remaining errors are automatically detected can be dealt easily with GUI assistance**.
